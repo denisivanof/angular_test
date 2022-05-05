@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AppService} from "../app.service";
 
 @Component({
   selector: 'app-user',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-
-  constructor() { }
+  openMenu: boolean = false
+  constructor( private  svc: AppService) { }
 
   ngOnInit(): void {
   }
-
+  setOpen(): void{
+    this.openMenu ? this.openMenu = false : this.openMenu = true
+  }
+  logOut(): void{
+    this.svc.logout()
+  }
+  onBlur(){
+    console.log('fgfdg')
+  }
 }

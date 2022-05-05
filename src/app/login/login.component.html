@@ -25,21 +25,21 @@
     </div>
     <div class="login__item">
       <h3 class="login__item_title">Log in your account</h3>
-      <form class="login__form">
-        <input [(ngModel)]="login" class="login__input" placeholder="Login" name="login">
-        <input [(ngModel)]="password" class="login__input" placeholder="Password" name="password">
+      <div class="login__form">
+        <input [(ngModel)]="login" class="login__input" placeholder="Login" name="login" type="email">
+        <input [(ngModel)]="password" class="login__input" placeholder="Password" name="password" type="password">
         <div class="login__checkbox">
-          <input type="checkbox">
+          <input type="checkbox" [checked]="svc.rememberMe">
           <label>Remember me</label>
         </div>
         <div class="login__btn">
             <input type="button" value="Log in" (click)="OnLogin()">
           <div>
-            <a>Forgot password?</a>
-            <a>Sign up</a>
+            <a href="">Forgot password?</a>
+            <a href="">Sign up</a>
           </div>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </div>

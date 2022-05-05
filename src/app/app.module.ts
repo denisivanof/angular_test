@@ -12,6 +12,11 @@ import {HttpClientModule} from "@angular/common/http";
 
 const appRoutes: Routes=[
   {
+    path: '',
+    redirectTo: '/user',
+    pathMatch: 'full'
+  },
+  {
     path: 'login',
     component: LoginComponent,
   },
