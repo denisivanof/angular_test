@@ -1,0 +1,113 @@
+header{
+  height: 52px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 20px rgba(0, 8, 87, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.user__item{
+  width: 80px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company__block{
+  padding: 28px 20px 20px;
+  height: 536px;
+}
+.company__my{
+  height: 230px;
+}
+.company__title{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  font-feature-settings: 'liga' off;
+  color: #21242A;
+  margin-bottom: 14px;
+}
+.company__block_items{
+  display: flex;
+}
+.company__block_item{
+  width: 463px;
+  height: 200px;
+  margin-right: 12px;
+  background: #FFFFFF;
+  border: 1px solid #E6E8EF;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.company__block_item:hover{
+  background: #EEF3FF;
+  cursor: pointer;
+}
+.company__name_item{
+  height: 42px;
+  display: flex;
+  width: 431px;
+}
+.company__name_logo{
+  margin-right: 12px;
+  width: 40px;
+  height: 40px;
+}
+.company__name_title{
+  width: 201px;
+  height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.company__name{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  font-feature-settings: 'liga' off;
+}
+.company__dec{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'kern' off, 'liga' off;
+  color: #4D5056;
+}
+.company__team{
+  display: flex;
+  align-items: center;
+  width: 431px;
+  height: 28px;
+}
+.company__team_title{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #4D5056;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  width: 29px;
+  height: 16px;
+}
+.company__team_users{
+
+}
+.company__team_user{
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.company__external{
+  height: 230px;
+  margin-top: 28px;
+}
